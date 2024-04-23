@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      input[type="text"] {
+        height: 20px;
+          width: 80px; 
+          margin-left: 2px;
+      }
+      input[type="number"] {
+        height: 20px;
+          width: 80px; 
+          margin-left: 2px;
+      }
+  </style>
+
+
+</head>
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Alpa Hotel<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#services">Menu</a></li>
+          <li><a href="#portfolio">Order</a></li>
+          <li><a href="#team">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+
+        <section id="about" class="about" style="margin-top: 80px;">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-header">
+                <h2>About Us</h2>
+                <p> Forgot to pack something? Visit our onsite convenience store, stocked with a variety of essentials, snacks, and souvenirs, ensuring you have
+                   everything you need for a comfortable stay.</p>
+              </div>
+      
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <h3> Enjoy the convenience of valet parking services..</h3>
+                  <img src="../../image/2.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                  <p>We offer a range of comfortable and stylish rooms and suites to suit every traveler's needs,
+                     from cozy single rooms to spacious luxury suites.</p>
+                  <p>Indulge in a culinary journey at our onsite restaurant, where our
+                     talented chefs create delicious dishes using locally sourced ingredients,
+                     offering a diverse menu to satisfy every palate.</p>
+                </div>
+                <div class="col-lg-6">
+                  <div class="content ps-0 ps-lg-5">
+                    <div class="card card-warning">
+                      <div class="card-header">
+                        <h3 class="card-title">Make Order</h3>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body">
+                        <form>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <!-- text input -->
+                              <div class="form-group">
+                                <label>First name</label>
+                                <input type="text" class="form-control" placeholder="Enter ...">
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="form-group">
+                                <label>Last name</label>
+                                <input type="text" class="form-control" placeholder="Enter ..." >
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <label >Birth Date:</label>
+                            <div>
+                              <select name="DAY" >
+                                <option value="saab">DAY</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                              </select>
+                              <select name="Month" >
+                                <option >Month</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                              </select>
+                              <select name="Year">
+                                <option value="volvo">Year</option>
+                                <option value="1997">1997</option>
+                                <option value="1998">1998</option>
+                                <option value="1999">1999</option>
+                              </select>
+                            </div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <!-- text input -->
+                              <div class="form-group">
+                                <label>Email</label>
+                                <input type="text" class="form-control" placeholder="Enter ...">
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="form-group">
+                                <label>Phone</label>
+                                <input type="number" class="form-control" placeholder="Enter ..." >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="align-items-center d-flex flex-row gap-5">
+                            <label>Gender</label>
+                            <div class="d-flex flex-row">
+                                <input  type="radio" name="radio1" checked>
+                                <label class="form-check-label">Male</label>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <input  type="radio" name="radio1">
+                                <label class="form-check-label">Female</label>
+                            </div>
+                        </div>
+                        
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="form-group">
+                                <label>Adres</label>
+                                <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label>CITY</label>
+                            <input type="text" class="form-control" placeholder="Enter ..." >
+                          </div>                              <div class="form-group">
+                            <label>PIN CDOE</label>
+                            <input type="number" class="form-control" placeholder="Enter ..." >
+                          </div>                              <div class="form-group">
+                            <label>STATE</label>
+                            <input type="text" class="form-control" placeholder="Enter ..." >
+                          </div>                              <div class="form-group">
+                            <label>Country</label>
+                            <input type="text" class="form-control" placeholder="Enter ..." >
+                          </div>
+
+                          <div class="align-items-center d-flex flex-row gap-5">
+                            <label>Hobies</label>
+                            <div class="d-flex flex-row">
+                              <input type="checkbox" name="Drawing" value="Drawing">
+                                <label class="form-check-label">Drawing</label>
+                            </div>
+                            <div class="d-flex flex-row">
+                              <input type="checkbox" name="Singing" value="Singing">
+                                <label class="form-check-label">Singing</label>
+                            </div>
+                            <div class="d-flex flex-row">
+                              <input type="checkbox" name="Dancing" value="Dancing">
+                                <label class="form-check-label">Dancing</label>
+                            </div>
+                         
+                        </div>
+                        <div class="d-flex flex-row ">
+                          <label class="form-check-label">Other</label>
+                          <input type="checkbox" name="other" value="other">
+                            <input type="text" class="form-control" placeholder="Enter ..." >
+                        </div>
+
+                        <table >
+                          <tr>
+                            <th>Company</th>
+                            <th>S.no</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>percentage</th>
+                            <th>Year of passing</th>
+                          </tr>
+                          <tr>
+                            <td rowspan="6"></td>
+                          </tr>
+                          <tr>
+                            <td> 1</td>
+                            <td> Class X</td>
+                            <td> <input type="text" size="10"><br></td>
+                            <td><input type="number" step="0.01"><br></td> 
+                            <td> <input type="text"><br></td>
+                          </tr>
+                          <tr>
+                            <td> 2</td>
+                            <td>Class XII</td>
+                            <td> <input type="text"  size="10"><br></td>
+                            <td><input type="number" step="0.01"><br></td> 
+                            <td> <input type="text"><br></td>
+                          </tr>
+                          <tr>
+                            <td> 3</td>
+                            <td> Graduation</td>
+                            <td> <input type="text"  size="10"><br></td>
+                            <td><input type="number" step="0.01"><br></td> 
+                            <td> <input type="text"><br></td>
+                          </tr>
+                          <tr>
+                            <td> 4</td>
+                            <td> Master</td>
+                            <td> <input type="text"  size="10"><br></td>
+                            <td><input type="number" step="0.01"><br></td> 
+                            <td> <input type="text"><br></td>
+                            </tr>
+                        </table>
+
+                        <div class="align-items-center d-flex flex-row gap-5">
+                          <label>COURSE APPLIED FOR</label>
+                          <div class="d-flex flex-row">
+                            
+                            <label class="form-check-label">BCA</label>
+                              <input  type="radio" name="radio1" checked>
+                          </div>
+                          <div class="d-flex flex-row">
+                            
+                            <label class="form-check-label">B.Com</label>
+                              <input  type="radio" name="radio1">
+                          </div>
+                          <div class="d-flex flex-row">
+                            
+                            <label class="form-check-label">B.Sc</label>
+                              <input  type="radio" name="radio1">
+                          </div>
+                          <div class="d-flex flex-row">
+                            <label class="form-check-label">B.A</label>
+                              <input  type="radio" name="radio1">
+                          </div>
+                      </div>
+                      <div class="card-footer">
+                        <button type="submit" class="btn btn-info">Sign in</button>
+                        <button type="submit" class="btn btn-default float-right">Cancel</button>
+                      </div>
+                        </form>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </section>
+</body>
+</html>

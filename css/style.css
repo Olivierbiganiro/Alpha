@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+body{
+   color: #ededed; 
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pad: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: nane;
+    font-weight: 600;
+}
+.header a{
+    text-decoration: none;
+}
+.navbar a{
+  display: inline-block;
+  font-size: 25px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;  
+}
+
+.navbar a:hover{
+    color:#97D010;
+}
+
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(../image/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+
+}
+
+.home-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p{
+    font-size: 20px;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #97D010;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #97D010;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover{
+    background: #97D010;
+    color: #000000;
+    box-shadow: 0 0 20px #97D010;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #97D010;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px #97D010,
+    0 0 25px #97D010, 0 0 50px #97D010,
+    0 0 100px #97D010, 0 0 20px #97D010
+}
+
+.home .home-content .text{
+    color: #97D010;
+}
+
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    background: var(--color-primary);
+    padding: 60px 0 0 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .main a{
+ text-decoration: none;
+  }
+  @media (min-width: 1365px) {
+    .main {
+      background-attachment: fixed;
+    }
+  }
+  
+  .main h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .main p {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .main .btn-get-started {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .main .btn-get-started:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .main .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .main .btn-watch-video i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+  }
+  
+  .main .btn-watch-video:hover i {
+    color: #fff;
+  }
+  
+  @media (max-width: 640px) {
+    .main h2 {
+      font-size: 36px;
+    }
+  
+    .main .btn-get-started,
+    .main .btn-watch-video {
+      font-size: 14px;
+    }
+  }
+  
+  .main .icon-boxes {
+    padding-bottom: 60px;
+  }
+  
+  @media (min-width: 1200px) {
+    .main .icon-boxes:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: calc(50% + 20px);
+      background-color: #fff;
+    }
+  }
+  
+
+
